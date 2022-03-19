@@ -53,7 +53,6 @@ private int requestcodes=1;
         database_helper = new DatabaseHelper(this);
         cardView=findViewById(R.id.cardd);
         display();
-       // searching();
         SearchView search1=findViewById(R.id.searchview);
         search1.setQueryHint("Search USSD...");
         cardView.setOnClickListener(new View.OnClickListener() {
